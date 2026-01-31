@@ -1,5 +1,9 @@
 export const data = {
-    categories: ["healthcare", "execution"],
+    categories: [
+        "healthcare",
+        // "execution", "humanitarian",
+        "Expel Iranian diplomats"
+    ],
     messages: {
         "healthcare": [
             { id: 1, text: "Iranian healthcare workers are being arrested for helping wounded protesters and now face execution by the Islamic Republic. Their lives are at risk. The world must act now. #IranMassacre #IranRevolution2026" },
@@ -12,6 +16,7 @@ export const data = {
             { id: 8, text: "Medics in Iran are being punished for doing their jobs. Arrested for treating protesters, now facing execution. The world must act now. #IranMassacre #IranRevolution2026" },
             { id: 9, text: "Treating the wounded should never be a crime. In Iran, it leads to arrest and execution threats. Act now. #IranMassacre #IranRevolution2026" },
             { id: 10, text: "Iranian doctors who treated injured protesters are detained and face execution by the Islamic Republic. This is urgent. #IranMassacre #IranRevolution2026" },
+
             { id: 11, text: "The regime in Iran is targeting healthcare workers for saving lives. Arrests, death sentences, silence. Act now. #IranMassacre #IranRevolution2026" },
             { id: 12, text: "Doctors and nurses in Iran are arrested for helping protesters and now face execution. Their lives are on the line. Act now. #IranMassacre #IranRevolution2026" },
             { id: 13, text: "In Iran, healing protesters leads to prison and execution. Healthcare workers’ lives are in danger right now. #IranMassacre #IranRevolution2026" },
@@ -22,6 +27,7 @@ export const data = {
             { id: 18, text: "Iranian nurses and doctors are jailed for helping protesters and now risk execution. Their lives matter. Act now. #IranMassacre #IranRevolution2026" },
             { id: 19, text: "Providing medical aid should not be a death sentence. In Iran, it is. Act now for detained medics. #IranMassacre #IranRevolution2026" },
             { id: 20, text: "Iran is punishing healthcare workers for treating injured protesters with arrest and execution. This must stop. #IranMassacre #IranRevolution2026" },
+
             { id: 21, text: "Doctors in Iran saved lives and are now facing execution for it. The world must respond immediately. #IranMassacre #IranRevolution2026" },
             { id: 22, text: "Iranian healthcare workers are detained for treating protesters and now face death sentences. This is urgent. #IranMassacre #IranRevolution2026" },
             { id: 23, text: "Healing the wounded is now a crime in Iran. Medics face arrest and execution. Act now. #IranMassacre #IranRevolution2026" },
@@ -32,6 +38,7 @@ export const data = {
             { id: 28, text: "Iranian doctors treated the wounded. The regime answered with arrest and execution threats. This is urgent. #IranMassacre #IranRevolution2026" },
             { id: 29, text: "In Iran, saving protesters’ lives leads to death sentences for medics. The world must act now. #IranMassacre #IranRevolution2026" },
             { id: 30, text: "Healthcare workers are being targeted in Iran for doing their duty. Arrested. Facing execution. Act now. #IranMassacre #IranRevolution2026" },
+
             { id: 31, text: "Iran is turning hospitals into crime scenes. Doctors who treated protesters now face execution. #IranMassacre #IranRevolution2026" },
             { id: 32, text: "Iranian nurses and doctors are detained for treating injured protesters and threatened with execution. Urgent action needed. #IranMassacre #IranRevolution2026" },
             { id: 33, text: "Treating the injured should never cost your life. In Iran, it does. Act now for healthcare workers. #IranMassacre #IranRevolution2026" },
@@ -42,6 +49,7 @@ export const data = {
             { id: 38, text: "Healthcare workers in Iran are punished with arrest and execution threats for saving protesters. Act now. #IranMassacre #IranRevolution2026" },
             { id: 39, text: "Iranian doctors did their duty. The regime answered with prison and execution. This is urgent. #IranMassacre #IranRevolution2026" },
             { id: 40, text: "In Iran, medical care for protesters leads to arrest and execution. Global action is needed now. #IranMassacre #IranRevolution2026" },
+
             { id: 41, text: "Iran is criminalizing doctors for treating injured protesters and pushing them toward execution. Act now. #IranMassacre #IranRevolution2026" },
             { id: 42, text: "Medics in Iran face execution for helping wounded protesters. Their lives are in immediate danger. #IranMassacre #IranRevolution2026" },
             { id: 43, text: "Doctors and nurses in Iran are detained for treating protesters and threatened with execution. Don’t ignore this. #IranMassacre #IranRevolution2026" },
@@ -49,6 +57,63 @@ export const data = {
             { id: 45, text: "Iranian healthcare workers are arrested for treating injured protesters and now face execution. This is happening now. #IranMassacre #IranRevolution2026" },
             { id: 46, text: "The regime in Iran targets medics for treating protesters, condemning them to execution. Act now. #IranMassacre #IranRevolution2026" },
             { id: 47, text: "Healthcare workers in Iran are risking their lives for saving others and now face execution. Urgent action needed. #IranMassacre #IranRevolution2026" }
+        ],
+        "Expel Iranian diplomats": [
+            { id: 1, text: "Time is running out. The regime murders in silence. The EU must expel Iranian ambassadors now and open talks with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 2, text: "Silence enables killing. The EU must act—expel Iranian ambassadors immediately and begin discussions with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 3, text: "Every hour counts. While the regime kills quietly, the EU must expel Iranian ambassadors and engage with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 4, text: "The regime kills behind a blackout. EU leaders: expel Iranian ambassadors now and initiate talks with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 5, text: "Enough silence. The EU must expel all Iranian ambassadors and start negotiations with #RezaPahlavi now #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 6, text: "Killing continues in silence. The EU has a duty to expel Iranian ambassadors and talk to #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 7, text: "No more delay. The EU must expel Iranian ambassadors immediately and engage with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 8, text: "The regime thrives on silence. Break it—expel Iranian ambassadors and open talks with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 9, text: "While the world waits, the regime kills. EU: expel Iranian ambassadors now, speak with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 10, text: "Silence is deadly. The EU must expel Iranian ambassadors and begin talks with #RezaPahlavi today #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+
+            { id: 11, text: "Time is running out for lives in Iran. EU action now: expel ambassadors, talk to #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 12, text: "Behind closed doors, the regime kills. The EU must respond by expelling Iranian ambassadors and engaging #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 13, text: "This silence is complicity. EU leaders must expel Iranian ambassadors and initiate talks with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 14, text: "Lives are being erased in silence. The EU must expel Iranian ambassadors immediately and talk to #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 15, text: "The regime kills under a digital blackout. EU: expel Iranian ambassadors and engage with #RezaPahlavi now #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 16, text: "Delay costs lives. The EU must expel Iranian ambassadors without delay and open talks with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 17, text: "Silence protects the killers. The EU must expel Iranian ambassadors and start dialogue with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 18, text: "Time is running out as the regime kills quietly. EU action now: expel ambassadors, talk to #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 19, text: "The world must not look away. EU: expel Iranian ambassadors and initiate talks with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 20, text: "End the silence. The EU must expel Iranian ambassadors immediately and engage #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+
+            { id: 21, text: "Killing continues while silence reigns. The EU must expel Iranian ambassadors and speak with #RezaPahlavi now #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 22, text: "Every moment matters. EU leaders must expel Iranian ambassadors and open talks with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 23, text: "The regime depends on silence. Break it—expel Iranian ambassadors and engage #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 24, text: "Lives are at stake now. The EU must expel Iranian ambassadors and initiate talks with #RezaPahlavi immediately #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 25, text: "Silence is not neutral. The EU must expel Iranian ambassadors and begin dialogue with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 26, text: "The regime kills unseen. EU action now: expel Iranian ambassadors and talk to #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 27, text: "Time is running out for justice. The EU must expel Iranian ambassadors and engage #RezaPahlavi today #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 28, text: "No more waiting. The EU must expel Iranian ambassadors immediately and open talks with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 29, text: "Silence fuels the massacre. EU leaders: expel Iranian ambassadors and start talks with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 30, text: "The killing won’t stop by silence. EU must expel Iranian ambassadors and engage #RezaPahlavi now #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+
+            { id: 31, text: "Under digital blackout, the regime kills. EU action now: expel Iranian ambassadors, talk to #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 32, text: "Time is running out. EU leaders must expel Iranian ambassadors and initiate talks with #RezaPahlavi immediately #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 33, text: "Silence is deadly. The EU must expel Iranian ambassadors and begin dialogue with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 34, text: "The regime kills quietly, but the EU can act loudly: expel ambassadors, engage #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 35, text: "Every delay costs lives. EU: expel Iranian ambassadors now and talk to #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 36, text: "Break the silence. The EU must expel Iranian ambassadors and initiate talks with #RezaPahlavi today #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 37, text: "The killing continues in silence. EU leaders must expel Iranian ambassadors and engage #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 38, text: "Time is running out as the regime murders unseen. EU: expel Iranian ambassadors and open talks with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 39, text: "Silence helps the regime. The EU must expel Iranian ambassadors and begin talks with #RezaPahlavi now #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 40, text: "Enough waiting. EU action now—expel Iranian ambassadors and engage #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+
+            { id: 41, text: "Lives are being lost in silence. The EU must expel Iranian ambassadors and talk to #RezaPahlavi immediately #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 42, text: "The regime relies on quiet. End it—EU expel Iranian ambassadors and initiate talks with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 43, text: "Time is running out for Iran. EU leaders must expel Iranian ambassadors and engage #RezaPahlavi now #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 44, text: "Silence is complicity. The EU must expel Iranian ambassadors and begin discussions with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 45, text: "The killing continues under blackout. EU: expel Iranian ambassadors and open talks with #RezaPahlavi today #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 46, text: "No more silence, no more delay. The EU must expel Iranian ambassadors and engage #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 47, text: "Time is running out while the regime kills quietly. EU action now: expel ambassadors, talk to #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 48, text: "Silence won’t save lives. The EU must expel Iranian ambassadors and initiate talks with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 49, text: "The regime counts on silence. EU leaders must expel Iranian ambassadors and engage #RezaPahlavi immediately #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" },
+            { id: 50, text: "Time is running out. End the silence—EU expel Iranian ambassadors and begin talks with #RezaPahlavi #expeliraninadiplomats #DigitalBlackoutIran #IranMassacre #FreeIran" }
         ]
+
     }
 }

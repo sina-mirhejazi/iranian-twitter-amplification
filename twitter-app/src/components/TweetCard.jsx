@@ -7,9 +7,20 @@ const TweetCard = ({ id, message, isDone, onTweet }) => {
     onTweet(id);
   };
 
+  const renderMessage = (text) => {
+    // Split text by hashtags, capturing the hashtag
+    const parts = text.split(/(#[a-zA-Z0-9_]+)/g);
+    return parts.map((part, index) => {
+      if (part.startsWith('#')) {
+        return <span key={index} className="hashtag">{part}</span>;
+      }
+      return part;
+    });
+  };
+
   return (
     <div className={`tweet-card ${isDone ? 'done' : ''}`}>
-      <p className="tweet-content">{message}</p>
+      <p className="tweet-content">{renderMessage(message)}</p>
       <button 
         className="tweet-btn" 
         onClick={handleTweetClick}

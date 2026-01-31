@@ -37,22 +37,23 @@ function App() {
   const categoryCounts = {};
   data.categories.forEach(cat => {
     const msgs = data.messages[cat] || [];
-    const doneCount = msgs.filter(m => doneMessages.has(m.id)).length;
+    const doneCount = msgs.filter(m => doneMessages.has(`${cat}-${m.id}`)).length;
     categoryCounts[cat] = { done: doneCount, total: msgs.length };
   });
 
   const rawMessages = data.messages[selectedCategory] || [];
   // Sort: Not done first, then Done
   const currentMessages = [...rawMessages].sort((a, b) => {
-    const aDone = doneMessages.has(a.id);
-    const bDone = doneMessages.has(b.id);
+    const aDone = doneMessages.has(`${selectedCategory}-${a.id}`);
+    const bDone = doneMessages.has(`${selectedCategory}-${b.id}`);
     if (aDone === bDone) return 0;
     return aDone ? 1 : -1;
   });
 
   const handleTweet = (id) => {
+    const key = `${selectedCategory}-${id}`;
     const newDoneMessages = new Set(doneMessages);
-    newDoneMessages.add(id);
+    newDoneMessages.add(key);
     setDoneMessages(newDoneMessages);
     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify([...newDoneMessages]));
   };
@@ -67,6 +68,9 @@ function App() {
           </button>
         </div>
         <p>Select a category and tweet to support the cause.</p>
+        <div className="warning-banner">
+          Warning: To avoid being banned, please tweet responsibly. We recommend waiting 1-2 minutes between tweets.
+        </div>
         <CategoryFilter 
           categories={data.categories}
           selectedCategory={selectedCategory}
@@ -81,7 +85,7 @@ function App() {
             key={msg.id}
             id={msg.id}
             message={msg.text}
-            isDone={doneMessages.has(msg.id)}
+            isDone={doneMessages.has(`${selectedCategory}-${msg.id}`)}
             onTweet={handleTweet}
           />
         ))}
